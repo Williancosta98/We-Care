@@ -1,0 +1,169 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 44px;
+    margin-left: 76px;
+}
+
+.link-menu{
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.link-menu:hover{
+    opacity: 0.8;
+}
+
+.link-menu:active{
+    opacity: 0.4;
+}
+
+.button-menu{
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left: 23px;
+}
+
+.button-menu:active{
+    
+    opacity: 0.7;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.button-menu:hover{
+    opacity: 0.9;
+}
+
+.logo-image{
+    width: 568px;
+    height: 500px;
+    margin: 144px 86px 0 125px;
+    display: inline-block;
+}
+
+.container-right {
+    display: inline-block;
+}
+
+h1{
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    width: 513px;
+    height: 122px;
+}
+
+h2{
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+    height: 71px;
+}
+
+p{
+    color: #515151;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    height: 87px;
+    margin-top: 25px;
+}
+
+.button-explore{
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20.5px;
+    background: #ADFF00;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 140px;
+}
+
+.button-explore:hover{
+    opacity: 0.8;
+}
+
+.button-explore:active{
+    opacity: 0.6;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+    *{
+        padding: 0;
+        margin: 0;
+        height: 50vw;   
+        width: 100vh;
+    }
+
+    header{
+        display: none;
+    }
+
+    img{
+        width: 354px;
+        height: 317px;
+        position: relative;
+        left: 10%;
+    }
+
+    .container-right{
+        margin-left: 32%;
+        position: relative;
+        margin-top: 2%;
+    }
+
+    h1{
+      font-size: 85px;
+      position: relative;
+      top: 10%;
+    }
+
+    h2{
+        position: fixed;
+        left: 32%;
+        top: 30%;
+        font-size: 40px;
+        font-weight: 500;
+        left: 7%;
+        top: -5%;
+    }
+
+
+    p{
+        display: none;
+    }
+
+    .button-explore{
+        position: fixed;
+        left: 32%;
+        top: 29%;
+        width: 265px;
+        height: 70px;
+        border-radius: 25px;
+        font-size: 35px;
+    }
+}
